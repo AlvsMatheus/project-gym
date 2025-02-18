@@ -8,11 +8,9 @@ $color:#F0EF00;
     font-size: 35px;
     font-weight: 100;
 }
-
 %strong {
     color: $color;
 }
-
 .dheader{
     width: $width-total;
 }
@@ -30,6 +28,11 @@ $color:#F0EF00;
         color: black;
         border-radius: 14px;
         font-weight: 600;
+    }
+    p {
+        strong {
+            color: $color;
+        }
     }
 }
 
