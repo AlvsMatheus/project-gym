@@ -11,8 +11,14 @@
 .gethealthy {
   height: 180px;
 }
+.gethealthy .stick {
+  background-color: #f0f000;
+  width: 1px;
+  height: 44px;
+}
 .gethealthy .phrase1 {
-  font-size: 28px;
+  padding-left: 10px;
+  font-size: 30px;
 }
 .gethealthy span {
   background-color: #F0EF00;
@@ -37,6 +43,21 @@ div.nav a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   height: 100px;
+}
+
+section article .us {
+  background-color: black;
+  color: white;
+  height: 90px;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 6px 7px 0px #F0EF00;
+}
+section article p {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+  color: #F0EF00;
 }
 
 /*# sourceMappingURL=style.css.map */

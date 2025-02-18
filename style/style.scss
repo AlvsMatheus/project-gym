@@ -2,6 +2,7 @@ $background-default: no-repeat center/cover;
 $radius: 20px;
 $width-total:100%;
 $color:#F0EF00;
+$yellow-shadow: 6px 7px 0px $color;
 
 %phrase {
     font-family: Arial, Helvetica, sans-serif;
@@ -16,9 +17,16 @@ $color:#F0EF00;
 }
 .gethealthy{
     height: 180px;
+
+    .stick{
+        background-color: #f0f000;
+        width: 1px;
+        height: 44px;
+    }
     .phrase1 {
         @extend %phrase;
-        font-size: 28px;
+        padding-left: 10px;
+        font-size: 30px;
     }
     .phrase2{
         @extend %phrase;
@@ -35,7 +43,6 @@ $color:#F0EF00;
         }
     }
 }
-
 .header{
   background: url("../images/background-cell.jpg") $background-default;
   width: 100%;
@@ -43,7 +50,6 @@ $color:#F0EF00;
   color: white;
   border-radius: $radius;
 }
-
 div.nav a{
     padding: 7px;
     color: rgb(255, 255, 255);
@@ -51,5 +57,20 @@ div.nav a{
     height: 100px;
 }
 
-
-    
+section{
+    article{
+        .us{
+            background-color: black;
+            color: white;
+            height: 90px;
+            border-radius: $radius;
+            width: $width-total;
+            box-shadow: $yellow-shadow;
+        } p {
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0px;
+            color: $color;
+        }
+    }
+}
